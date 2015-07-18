@@ -1,0 +1,24 @@
+// @file
+// Color variables
+// http://sass-lang.com/docs/yardoc/file.SASS_REFERENCE.html#variables_
+
+$f1-red: #ef4836;
+$f1-teal: #7ccfd9;
+$f1-white: #fdf9ed;
+$f1-ash: #555559;
+$f1-warm-gray: #f6eee4;
+$f1-cool-gray: #f1f1f1;
+$highlight-color: $f1-teal;
+$primary-text-color: $f1-white;
+$secondary-text-color: #ccc;
+$heading-text-color: $primary-text-color;
+$body-color: #333;
+$link-color: $f1-teal;
+$link-hover-color: lighten($link-color, 10%);
+$link-underline-color: darken($link-color, 15%);
+$link-underline-hover-color: $link-hover-color;
+$link-underline-width: (1 / 16);
+$link-underline-offset: (1.5 / 16);
+$border-color: $f1-cool-gray;
+$selection-background: #000;
+$selection-foreground: #fff;

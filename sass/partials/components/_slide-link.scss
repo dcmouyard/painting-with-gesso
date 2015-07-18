@@ -1,0 +1,19 @@
+// @file
+// Styles for a slide link.
+
+.slide-link {
+  background: transparent;
+  display: none;
+  font-size: em(30px);
+  line-height: 1;
+  position: absolute;
+  right: em(24px, 20px);
+  text-shadow: none;
+  top: em(24px, 20px);
+  z-index: 100;
+
+  .impress-on-title &,
+  .impress-on-final & {
+    display: block;
+  }
+}

@@ -1,0 +1,71 @@
+// @file
+// Slides
+
+// Show/hide other slides based on which slide is active.
+@each $slide in title, speaker, gesso, gesso-logo, gesso-details, final {
+  .impress-on-#{$slide} .show-on-#{$slide} {
+    opacity: 1;
+  }
+  .impress-on-#{$slide} .hide-on-#{$slide} {
+    opacity: 0;
+  }
+}
+
+%bg-primary {
+  background: url(../img/branding/f1-wordmark-white.svg) no-repeat calc(100% - 24px) calc(100% - 18px),
+              $f1-red url(../img/branding/f1-thin-circle-white.svg) no-repeat -1150px 50px;
+  background-size: 144px 16px, 1800px 1800px;
+
+  a {
+    color: $f1-white;
+  }
+}
+
+%bg-secondary {
+  background: url(../img/branding/f1-wordmark-white.svg) no-repeat calc(100% - 24px) calc(100% - 18px),
+              $f1-ash url(../img/branding/f1-thin-circle-red.svg) no-repeat -1150px 50px;
+  background-size: 144px 16px, 1800px 1800px;
+}
+
+.impress-on-title {
+  @extend %bg-primary;
+}
+
+#title {
+  text-shadow: none;
+
+  h1 {
+    margin: 0;
+  }
+
+  small {
+    display: block;
+    margin-top: em(32px, 45px);
+    text-transform: none;
+  }
+}
+
+#speaker {
+  h3 {
+    margin-bottom: 0.5em;
+  }
+
+  img {
+    background: #000;
+  }
+}
+
+.impress-on-gesso {
+  @extend %bg-secondary;
+}
+
+.impress-on-gesso-logo {
+  @extend %picture-background;
+  background-image: url(../img/gesso-logo.png);
+}
+
+.impress-on-all {
+  .step {
+    opacity: 1;
+  }
+}

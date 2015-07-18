@@ -1,0 +1,12 @@
+// @file
+// Picture background
+
+%picture-background {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .step {
+    opacity: 0 !important;
+  }
+}

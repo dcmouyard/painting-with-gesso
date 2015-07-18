@@ -1,0 +1,14 @@
+// @file
+// Styles for a slide.
+
+.impress-supported .fallback-message {
+  display: none;
+}
+
+.impress-enabled {
+  pointer-events: none;
+
+  #impress {
+    pointer-events: auto;
+  }
+}

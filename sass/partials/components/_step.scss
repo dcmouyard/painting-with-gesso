@@ -1,0 +1,23 @@
+// @file
+// Styles for a step.
+
+.step {
+  margin: 20px auto;
+  padding: 0 1em;
+  position: relative;
+  width: 1024px;
+
+  .impress-enabled & {
+    margin: 0;
+    opacity: 0.3;
+
+    &.active {
+      opacity: 1;
+    }
+  }
+
+  :last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+}

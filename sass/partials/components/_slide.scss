@@ -1,0 +1,14 @@
+// @file
+// Styles for a slide.
+
+.slide {
+  background-color: #eee;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  color: #333;
+  display: block;
+  height: 700px;
+  padding: 32px;
+  width: 900px;
+}
