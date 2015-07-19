@@ -2,7 +2,7 @@
 // Slides
 
 // Show/hide other slides based on which slide is active.
-@each $slide in title, speaker, gesso, gesso-logo, gesso-details, final {
+@each $slide in title, speaker, gesso, gesso-logo, gesso-details, d8-css-architecture, d8-css-guidelines, naming-components, markup-components, naming-elements, markup-elements, naming-variants, markup-variants, naming-states, markup-states, final {
   .impress-on-#{$slide} .show-on-#{$slide} {
     opacity: 1;
   }
@@ -62,6 +62,16 @@
 .impress-on-gesso-logo {
   @extend %picture-background;
   background-image: url(../img/gesso-logo.png);
+}
+
+.impress-on-sass {
+  @extend %picture-background;
+  background-image: url(../img/sass.png);
+}
+
+.impress-on-smacss {
+  @extend %picture-background;
+  background-image: url(../img/smacss.jpg);
 }
 
 .impress-on-all {

@@ -29,12 +29,12 @@
   clear: both;
 }
 
-.impress-on-gesso-logo {
+.impress-on-gesso-logo, .impress-on-sass, .impress-on-smacss {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.impress-on-gesso-logo .step {
+.impress-on-gesso-logo .step, .impress-on-sass .step, .impress-on-smacss .step {
   opacity: 0 !important;
 }
 
@@ -753,6 +753,86 @@ ul ul {
   opacity: 0;
 }
 
+.impress-on-d8-css-architecture .show-on-d8-css-architecture {
+  opacity: 1;
+}
+
+.impress-on-d8-css-architecture .hide-on-d8-css-architecture {
+  opacity: 0;
+}
+
+.impress-on-d8-css-guidelines .show-on-d8-css-guidelines {
+  opacity: 1;
+}
+
+.impress-on-d8-css-guidelines .hide-on-d8-css-guidelines {
+  opacity: 0;
+}
+
+.impress-on-naming-components .show-on-naming-components {
+  opacity: 1;
+}
+
+.impress-on-naming-components .hide-on-naming-components {
+  opacity: 0;
+}
+
+.impress-on-markup-components .show-on-markup-components {
+  opacity: 1;
+}
+
+.impress-on-markup-components .hide-on-markup-components {
+  opacity: 0;
+}
+
+.impress-on-naming-elements .show-on-naming-elements {
+  opacity: 1;
+}
+
+.impress-on-naming-elements .hide-on-naming-elements {
+  opacity: 0;
+}
+
+.impress-on-markup-elements .show-on-markup-elements {
+  opacity: 1;
+}
+
+.impress-on-markup-elements .hide-on-markup-elements {
+  opacity: 0;
+}
+
+.impress-on-naming-variants .show-on-naming-variants {
+  opacity: 1;
+}
+
+.impress-on-naming-variants .hide-on-naming-variants {
+  opacity: 0;
+}
+
+.impress-on-markup-variants .show-on-markup-variants {
+  opacity: 1;
+}
+
+.impress-on-markup-variants .hide-on-markup-variants {
+  opacity: 0;
+}
+
+.impress-on-naming-states .show-on-naming-states {
+  opacity: 1;
+}
+
+.impress-on-naming-states .hide-on-naming-states {
+  opacity: 0;
+}
+
+.impress-on-markup-states .show-on-markup-states {
+  opacity: 1;
+}
+
+.impress-on-markup-states .hide-on-markup-states {
+  opacity: 0;
+}
+
 .impress-on-final .show-on-final {
   opacity: 1;
 }
@@ -795,6 +875,14 @@ ul ul {
 
 .impress-on-gesso-logo {
   background-image: url(../img/gesso-logo.png);
+}
+
+.impress-on-sass {
+  background-image: url(../img/sass.png);
+}
+
+.impress-on-smacss {
+  background-image: url(../img/smacss.jpg);
 }
 
 .impress-on-all .step {

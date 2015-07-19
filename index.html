@@ -36,7 +36,7 @@
   </article>
 
   <article id="overview-1" data-x="3200" data-y="100" data-scale="2" class="step hide-on-speaker show-on-final">
-    <h2><span class="highlight">Gesso</span> Overview</h2>
+    <h2>The <span class="highlight">Gesso</span> Theme</h2>
   </article>
 
   <article id="overview-2" data-x="3200" data-y="300" data-scale="2" class="step hide-on-speaker show-on-final">
@@ -51,13 +51,108 @@
     <h2>Control Drupal’s <span class="highlight">Markup</span></h2>
   </article>
 
-  <article id="gesso" data-x="5500" data-y="2000" data-scale="1"  data-rotate="-90" class="step show-on-gesso-details hide-on-final">
+  <article id="gesso" data-x="5500" data-y="2000" data-scale="1"  data-rotate="-90" class="step hide-on-final">
     <h1 class="title centered">Overview of Gesso</h1>
   </article>
 
-  <article id="gesso-logo" data-x="5500" data-y="2000" data-scale="1"  data-rotate="-90" class="step hide-on-gesso-details hide-on-final">
+  <article id="gesso-logo" data-x="5500" data-y="2000" data-scale="1"  data-rotate="-90" class="step hide-on-final">
     <a class="element-invisible" href="http://drupal.org/project/gesso">drupal.org/project/gesso</a>
   </article>
+
+  <article id="sass" data-x="6500" data-y="2000" data-scale="1"  data-rotate="-90" class="step hide-on-final">
+    <a class="element-invisible" href="http://sass-lang.com/">sass-lang.com</a>
+  </article>
+
+  <article id="d8-css-architecture" data-x="6500" data-y="2000" data-scale="1"  data-rotate="-90" class="step show-on-d8-css-guidelines hide-on-final">
+    <div class="layout-slat">
+      <div class="layout-slat__media"><img alt="Drupal 8" src="img/d8.png" width="300"></div>
+      <div class="layout-slat__content">
+        <h2 class="h3">CSS Architecture<small><a href="https://www.drupal.org/node/1887918">drupal.org/node/1887918</a></small></h2>
+      </div>
+    </div>
+  </article>
+
+  <article id="d8-css-guidelines" data-x="6580" data-y="2000" data-scale="1"  data-rotate="-90" class="step hide-on-d8-css-architecture hide-on-final">
+    <div class="layout-slat">
+      <div class="layout-slat__media"><div style="width:300px">&nbsp;</div></div>
+      <div class="layout-slat__content">
+        <ul>
+          <li>Predictable</li>
+          <li>Reusable</li>
+          <li>Maintainable</li>
+          <li>Scalable</li>
+        </ul>
+      </div>
+    </div>
+  </article>
+
+  <article id="smacss" data-x="7500" data-y="2000" data-scale="1"  data-rotate="-90" class="step hide-on-final">
+    <a class="element-invisible" href="https://smacss.com/">Scalable and Modular Architecture for CSS</a>
+  </article>
+
+  <article id="naming-components" data-x="7500" data-y="2000" data-scale="1"  data-rotate="-90" class="step hide-on-naming-elements hide-on-markup-elements hide-on-naming-variants hide-on-markup-variants hide-on-naming-states hide-on-markup-states hide-on-final">
+    <h2 class="element-invisible">Naming Conventions</h2>
+    <h3>Components</h3>
+    <pre>.component {}
+.another-component {}</pre>
+  </article>
+
+  <article id="markup-components" data-x="7800" data-y="2000" data-scale="1"  data-rotate="-90" class="step hide-on-naming-components hide-on-naming-elements hide-on-markup-elements hide-on-naming-variants hide-on-markup-variants hide-on-naming-states hide-on-markup-states hide-on-final">
+    <h4 class="element-invisible">Markup</h4>
+    <pre>&lt;div class="<span class="highlight">component</span>"&gt;&hellip;&lt;/div&gt;
+&lt;div class="<span class="highlight">another-component</span>"&gt;&hellip;&lt;/div&gt;
+&lt;div class="<span class="highlight">component</span>"&gt;
+  &lt;div class="<span class="highlight">another-component</span>"&gt;&hellip;&lt;/div&gt;
+&lt;/div&gt;</pre>
+  </article>
+
+  <article id="naming-elements" data-x="7800" data-y="1500" data-scale="1"  data-rotate="-90" class="step hide-on-naming-components hide-on-markup-components hide-on-naming-variants hide-on-markup-variants hide-on-naming-states hide-on-markup-states hide-on-final">
+    <h3>Elements</h3>
+    <pre>.component__element {}
+.component__another-element {}</pre>
+  </article>
+
+  <article id="markup-elements" data-x="8100" data-y="1500" data-scale="1"  data-rotate="-90" class="step hide-on-naming-components hide-on-markup-components hide-on-naming-elements hide-on-naming-variants hide-on-markup-variants hide-on-naming-states hide-on-markup-states hide-on-final">
+    <h4 class="element-invisible">Markup</h4>
+    <pre>&lt;div class="component"&gt;
+  &lt;div class="<span class="highlight">component__element</span>"&gt;&hellip;&lt;/div&gt;
+  &lt;div class="<span class="highlight">component__another-element</span>"&gt;&hellip;&lt;/div&gt;
+  &lt;div class="another-component"&gt;&hellip;&lt;/div&gt;
+&lt;/div&gt;</pre>
+  </article>
+
+  <article id="naming-variants" data-x="8100" data-y="1000" data-scale="1"  data-rotate="-90" class="step hide-on-naming-components hide-on-markup-components hide-on-naming-elements hide-on-markup-elements hide-on-naming-states hide-on-markup-states hide-on-final">
+    <h3>Component Variants</h3>
+    <pre>.component--variant {}
+.component--another-variant {}</pre>
+  </article>
+
+  <article id="markup-variants" data-x="8400" data-y="1000" data-scale="1"  data-rotate="-90" class="step hide-on-naming-components hide-on-markup-components hide-on-naming-elements hide-on-markup-elements hide-on-naming-variants hide-on-naming-states hide-on-markup-states hide-on-final">
+    <h4 class="element-invisible">Markup</h4>
+    <pre>&lt;div class="component <span class="highlight">component--variant</span>"&gt;
+  &lt;div class="component__element"&gt;&hellip;&lt;/div&gt;
+  &lt;div class="component__another-element"&gt;&hellip;&lt;/div&gt;
+  &lt;div class="another-component"&gt;&hellip;&lt;/div&gt;
+&lt;/div&gt;</pre>
+  </article>
+
+  <article id="naming-states" data-x="8400" data-y="500" data-scale="1"  data-rotate="-90" class="step hide-on-naming-components hide-on-markup-components hide-on-naming-elements hide-on-markup-elements hide-on-naming-variants hide-on-markup-variants hide-on-final">
+    <h3>States</h3>
+    <pre>.component.is-state {}
+.component__element.is-another-state {}</pre>
+  </article>
+
+  <article id="markup-states" data-x="8700" data-y="500" data-scale="1"  data-rotate="-90" class="step hide-on-naming-components hide-on-markup-components hide-on-naming-elements hide-on-markup-elements hide-on-naming-variants hide-on-naming-variants hide-on-markup-variants hide-on-naming-states hide-on-final">
+    <h4 class="element-invisible">Markup</h4>
+    <pre>&lt;div class="component component--variant <span class="highlight">is-state</span>"&gt;
+  &lt;div class="component__element <span class="highlight">is-state</span>"&gt;&hellip;&lt;/div&gt;
+  &lt;div class="component__another-element"&gt;&hellip;&lt;/div&gt;
+  &lt;div class="another-component"&gt;&hellip;&lt;/div&gt;
+&lt;/div&gt;</pre>
+  </article>
+
+
+
 
   <article id="final" data-x="1400" data-y="500" data-scale="6" class="step"></article>
 
