@@ -930,6 +930,134 @@ ul ul {
   opacity: 0;
 }
 
+.impress-on-organize-sass .show-on-organize-sass {
+  opacity: 1;
+}
+
+.impress-on-organize-sass .hide-on-organize-sass {
+  opacity: 0;
+}
+
+.impress-on-partials-code .show-on-partials-code {
+  opacity: 1;
+}
+
+.impress-on-partials-code .hide-on-partials-code {
+  opacity: 0;
+}
+
+.impress-on-partials-directory .show-on-partials-directory {
+  opacity: 1;
+}
+
+.impress-on-partials-directory .hide-on-partials-directory {
+  opacity: 0;
+}
+
+.impress-on-partials-global .show-on-partials-global {
+  opacity: 1;
+}
+
+.impress-on-partials-global .hide-on-partials-global {
+  opacity: 0;
+}
+
+.impress-on-global-details .show-on-global-details {
+  opacity: 1;
+}
+
+.impress-on-global-details .hide-on-global-details {
+  opacity: 0;
+}
+
+.impress-on-partials-base .show-on-partials-base {
+  opacity: 1;
+}
+
+.impress-on-partials-base .hide-on-partials-base {
+  opacity: 0;
+}
+
+.impress-on-base-details .show-on-base-details {
+  opacity: 1;
+}
+
+.impress-on-base-details .hide-on-base-details {
+  opacity: 0;
+}
+
+.impress-on-partials-helper-classes .show-on-partials-helper-classes {
+  opacity: 1;
+}
+
+.impress-on-partials-helper-classes .hide-on-partials-helper-classes {
+  opacity: 0;
+}
+
+.impress-on-partials-layout .show-on-partials-layout {
+  opacity: 1;
+}
+
+.impress-on-partials-layout .hide-on-partials-layout {
+  opacity: 0;
+}
+
+.impress-on-partials-components .show-on-partials-components {
+  opacity: 1;
+}
+
+.impress-on-partials-components .hide-on-partials-components {
+  opacity: 0;
+}
+
+.impress-on-components-details .show-on-components-details {
+  opacity: 1;
+}
+
+.impress-on-components-details .hide-on-components-details {
+  opacity: 0;
+}
+
+.impress-on-components-details-alt .show-on-components-details-alt {
+  opacity: 1;
+}
+
+.impress-on-components-details-alt .hide-on-components-details-alt {
+  opacity: 0;
+}
+
+.impress-on-partials-quick-fixes .show-on-partials-quick-fixes {
+  opacity: 1;
+}
+
+.impress-on-partials-quick-fixes .hide-on-partials-quick-fixes {
+  opacity: 0;
+}
+
+.impress-on-sync .show-on-sync {
+  opacity: 1;
+}
+
+.impress-on-sync .hide-on-sync {
+  opacity: 0;
+}
+
+.impress-on-sync-mustache .show-on-sync-mustache {
+  opacity: 1;
+}
+
+.impress-on-sync-mustache .hide-on-sync-mustache {
+  opacity: 0;
+}
+
+.impress-on-sync-sass .show-on-sync-sass {
+  opacity: 1;
+}
+
+.impress-on-sync-sass .hide-on-sync-sass {
+  opacity: 0;
+}
+
 .impress-on-questions .show-on-questions {
   opacity: 1;
 }

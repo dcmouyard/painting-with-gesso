@@ -2,7 +2,7 @@
 // Slides
 
 // Show/hide other slides based on which slide is active.
-@each $slide in title, speaker, gesso, gesso-logo, gesso-details, d8-css-architecture, d8-css-guidelines, naming-components, markup-components, naming-elements, markup-elements, naming-variants, markup-variants, naming-states, markup-states, core-vs-gesso, menu-core, menu-gesso, pattern-lab, pattern-lab-link, pattern-lab-gesso, installation, folder-structure, pattern-lab-structure, patterns, mustache-teaser, questions, final {
+@each $slide in title, speaker, gesso, gesso-logo, gesso-details, d8-css-architecture, d8-css-guidelines, naming-components, markup-components, naming-elements, markup-elements, naming-variants, markup-variants, naming-states, markup-states, core-vs-gesso, menu-core, menu-gesso, pattern-lab, pattern-lab-link, pattern-lab-gesso, installation, folder-structure, pattern-lab-structure, patterns, mustache-teaser, organize-sass, partials-code, partials-directory, partials-global, global-details, partials-base, base-details, partials-helper-classes, partials-layout, partials-components, components-details, components-details-alt, partials-quick-fixes, sync, sync-mustache, sync-sass, questions, final {
   .impress-on-#{$slide} .show-on-#{$slide} {
     opacity: 1;
   }
