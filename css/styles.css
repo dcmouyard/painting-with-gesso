@@ -688,7 +688,7 @@ ul ul {
   top: 1.2em;
   z-index: 100;
 }
-.impress-on-title .slide-link, .impress-on-final .slide-link {
+.impress-on-title .slide-link, .impress-on-questions .slide-link, .impress-on-final .slide-link {
   display: block;
 }
 
@@ -927,6 +927,14 @@ ul ul {
 }
 
 .impress-on-mustache-teaser .hide-on-mustache-teaser {
+  opacity: 0;
+}
+
+.impress-on-questions .show-on-questions {
+  opacity: 1;
+}
+
+.impress-on-questions .hide-on-questions {
   opacity: 0;
 }
 
