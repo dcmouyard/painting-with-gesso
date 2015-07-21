@@ -1,0 +1,81 @@
+Painting a Perfect Picture with Gesso
+
+
+Introduction
+  "Does anybody here know what Gesso is?"
+
+
+About Me
+  FED at F1
+  Maintainer of Gesso theme and Gesso version of Pattern Lab
+  Legally blind and hard of hearing, so I’ve asked __ to repeat any questions you may have so I can hear them.
+
+
+Gesso Theme
+  Basic philosophy & main differences from other themes
+
+Design with Pattern Lab
+  Demo and quick look at how it works
+
+Organize Design Components
+  Tips for organizing design components across PL and Sass partials
+
+Control Drupal’s Markup
+  Tips on approaches and modules to use
+
+
+
+
+## Gesso Theme
+  Starter theme, not a base theme
+  Drush command to generate a new theme
+  Philosophy: a nice, clean starting point
+    Remove divitis without killing necessary markup
+    Overrides vast majority of core styles
+
+
+Sass
+
+
+Drupal 8 CSS Architecture Guidelines
+  Predictable
+  Reusable
+  Maintainable
+  Scalable
+
+
+SMACSS
+
+
+BEM naming conventions
+
+
+Markup Example (Core vs. Gesso)
+
+
+
+
+## Pattern Lab
+  Pattern Lab Demo
+  NIFA Demo
+
+
+Pattern Lab Gesso
+  Pattern Lab Gesso Demo
+
+
+Installation
+
+
+
+
+## Organize Design Components
+
+
+Organize Sass Partials
+
+
+Keep Mustache & Sass in Sync
+
+
+
