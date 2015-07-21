@@ -562,6 +562,10 @@ ul ul {
     margin: 2cm;
   }
 }
+.centered {
+  text-align: center;
+}
+
 .layout-slat:after {
   display: table;
   content: "";
@@ -599,6 +603,11 @@ ul ul {
     padding-left: 1em;
     padding-right: 0;
   }
+}
+
+.code--small {
+  font-size: 50%;
+  line-height: 1.5;
 }
 
 .columns {
@@ -833,6 +842,94 @@ ul ul {
   opacity: 0;
 }
 
+.impress-on-core-vs-gesso .show-on-core-vs-gesso {
+  opacity: 1;
+}
+
+.impress-on-core-vs-gesso .hide-on-core-vs-gesso {
+  opacity: 0;
+}
+
+.impress-on-menu-core .show-on-menu-core {
+  opacity: 1;
+}
+
+.impress-on-menu-core .hide-on-menu-core {
+  opacity: 0;
+}
+
+.impress-on-menu-gesso .show-on-menu-gesso {
+  opacity: 1;
+}
+
+.impress-on-menu-gesso .hide-on-menu-gesso {
+  opacity: 0;
+}
+
+.impress-on-pattern-lab .show-on-pattern-lab {
+  opacity: 1;
+}
+
+.impress-on-pattern-lab .hide-on-pattern-lab {
+  opacity: 0;
+}
+
+.impress-on-pattern-lab-link .show-on-pattern-lab-link {
+  opacity: 1;
+}
+
+.impress-on-pattern-lab-link .hide-on-pattern-lab-link {
+  opacity: 0;
+}
+
+.impress-on-pattern-lab-gesso .show-on-pattern-lab-gesso {
+  opacity: 1;
+}
+
+.impress-on-pattern-lab-gesso .hide-on-pattern-lab-gesso {
+  opacity: 0;
+}
+
+.impress-on-installation .show-on-installation {
+  opacity: 1;
+}
+
+.impress-on-installation .hide-on-installation {
+  opacity: 0;
+}
+
+.impress-on-folder-structure .show-on-folder-structure {
+  opacity: 1;
+}
+
+.impress-on-folder-structure .hide-on-folder-structure {
+  opacity: 0;
+}
+
+.impress-on-pattern-lab-structure .show-on-pattern-lab-structure {
+  opacity: 1;
+}
+
+.impress-on-pattern-lab-structure .hide-on-pattern-lab-structure {
+  opacity: 0;
+}
+
+.impress-on-patterns .show-on-patterns {
+  opacity: 1;
+}
+
+.impress-on-patterns .hide-on-patterns {
+  opacity: 0;
+}
+
+.impress-on-mustache-teaser .show-on-mustache-teaser {
+  opacity: 1;
+}
+
+.impress-on-mustache-teaser .hide-on-mustache-teaser {
+  opacity: 0;
+}
+
 .impress-on-final .show-on-final {
   opacity: 1;
 }
@@ -849,7 +946,7 @@ ul ul {
   color: #fdf9ed;
 }
 
-.impress-on-gesso {
+.impress-on-gesso, .impress-on-pattern-lab, .impress-on-organize-components {
   background: url(../img/branding/f1-wordmark-white.svg) no-repeat calc(100% - 24px) calc(100% - 18px), #555559 url(../img/branding/f1-thin-circle-red.svg) no-repeat -1150px 50px;
   background-size: 144px 16px, 1800px 1800px;
 }

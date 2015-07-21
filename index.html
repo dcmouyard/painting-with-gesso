@@ -52,7 +52,7 @@
   </article>
 
   <article id="gesso" data-x="5500" data-y="2000" data-scale="1"  data-rotate="-90" class="step hide-on-final">
-    <h1 class="title centered">Overview of Gesso</h1>
+    <h1>Overview of Gesso</h1>
   </article>
 
   <article id="gesso-logo" data-x="5500" data-y="2000" data-scale="1"  data-rotate="-90" class="step hide-on-final">
@@ -149,6 +149,120 @@
   &lt;div class="component__another-element"&gt;&hellip;&lt;/div&gt;
   &lt;div class="another-component"&gt;&hellip;&lt;/div&gt;
 &lt;/div&gt;</pre>
+  </article>
+
+  <article id="core-vs-gesso" data-x="8700" data-y="-1500" data-scale="1"  data-rotate="-90" class="step show-on-menu-core show-on-menu-gesso hide-on-final">
+    <h2>Drupal Core vs. Gesso <small>Menu Markup</small></h2>
+  </article>
+
+  <article id="menu-core" data-x="9000" data-y="-1500" data-scale="1"  data-rotate="-90" class="step hide-on-core-vs-gesso hide-on-menu-gesso hide-on-final">
+    <pre class="code--small">&lt;ul class="menu"&gt;
+  &lt;li class="first leaf"&gt;
+    &lt;a&gt;&hellip;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="leaf"&gt;
+    &lt;a class="active"&gt;&hellip;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="last expanded"&gt;
+    &lt;a&gt;&hellip;&lt;/a&gt;
+    &lt;ul class="menu"&gt;&hellip;&lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</pre>
+  </article>
+
+  <article id="menu-gesso" data-x="9000" data-y="-1500" data-scale="1"  data-rotate="-90" class="step hide-on-core-vs-gesso hide-on-menu-core hide-on-final">
+    <pre class="code--small">&lt;ul class="nav nav--main-menu"&gt;
+  &lt;li class="nav__item"&gt;
+    &lt;a class="nav__link"&gt;&hellip;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="nav__item is-active-trail is-active"&gt;
+    &lt;a class="nav__link is-active-trail is-active"&gt;&hellip;&lt;/a&gt;
+  &lt;/li&gt;
+  &lt;li class="nav__item has-children has-subnav"&gt;
+    &lt;a class="nav__link"&gt;&hellip;&lt;/a&gt;
+    &lt;ul class="nav nav--subnav"&gt;&hellip;&lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;</pre>
+  </article>
+
+  <article id="pattern-lab" data-x="7000" data-y="-2480" data-scale="1"  data-rotate="-180" class="step show-on-pattern-lab-link show-on-pattern-lab-gesso hide-on-final">
+    <h1>Pattern Lab</h1>
+  </article>
+
+  <article id="pattern-lab-link" data-x="7000" data-y="-2600" data-scale="1"  data-rotate="-180" class="step hide-on-pattern-lab hide-on-pattern-lab-gesso hide-on-final">
+    <a href="http://patternlab.io">patternlab.io</a>
+  </article>
+
+  <article id="pattern-lab-gesso" data-x="7000" data-y="-2600" data-scale="1"  data-rotate="-180" class="step hide-on-pattern-lab hide-on-pattern-lab-link hide-on-final">
+    <div><small><a href="https://github.com/dcmouyard/patternlab-php-gesso">github.com/dcmouyard/patternlab-php-gesso</a></small></div>
+    <div><small><a href="https://dcmouyard.github.io/patternlab-php-gesso">dcmouyard.github.io/patternlab-php-gesso</a></small></div>
+  </article>
+
+  <article id="installation" data-x="5500" data-y="-2600" data-scale="1"  data-rotate="-180" class="step hide-on-final">
+    <h2>Installation</h2>
+    <p>Just drop Pattern Lab Gesso into the Gesso theme folder.</p>
+  </article>
+
+  <article id="folder-structure" data-x="5500" data-y="-2950" data-scale="1"  data-rotate="-180" class="step hide-on-installation hide-on-final">
+    <pre class="code--small">gesso/
+  css/
+  ds_layouts/
+  images/
+  includes/
+  js/
+  panels/
+  <span class="highlight">pattern-lab/</span>
+  polyfills/
+  sass/
+  templates/</pre>
+  </article>
+
+  <article id="pattern-lab-structure" data-x="5300" data-y="-2950" data-scale="1"  data-rotate="-180" class="step hide-on-installation hide-on-folder-structure hide-on-final">
+    <pre class="code--small">        pattern-lab/
+          config/
+          core/
+          extras/
+          public/
+            index.html
+          source/
+            _data/
+              _data.json
+            <span class="highlight">_patterns/</span>
+            drupal/</pre>
+  </article>
+
+  <article id="patterns" data-x="5000" data-y="-2950" data-scale="1"  data-rotate="-180" class="step hide-on-installation hide-on-folder-structure hide-on-pattern-lab-structure hide-on-final">
+    <pre class="code--small">        _patterns/
+          00-base/
+          01-components/
+            03-view-modes/
+              <span class="highlight">00-teaser@inprogress.mustache</span>
+          02-layouts/
+          03-templates/
+          04-pages/</pre>
+  </article>
+
+  <article id="mustache-teaser" data-x="3500" data-y="-2950" data-scale="1"  data-rotate="-180" class="step hide-on-final">
+    <h3>Mustache</h3>
+    <pre class="code--small">&lt;article class="teaser" role="article"&gt;
+  &lt;div class="teaser__title"&gt;&lt;a href="#"&gt;{{ title }}&lt;/a&gt;&lt;/div&gt;
+  &lt;div class="teaser__date"&gt;{{&gt; base-medium-date }}&lt;/div&gt;
+  {{{ summary }}}
+&lt;/article&gt;</pre>
+  </article>
+
+  <article id="mustache-search-result" data-x="3500" data-y="-3350" data-scale="1"  data-rotate="-180" class="step hide-on-mustache-teaser hide-on-final">
+    <pre class="code--small">&lt;article class="teaser teaser--search-result" role="article"&gt;
+  &lt;div class="layout-slat"&gt;
+    &lt;div class="layout-slat__media"&gt;
+      &lt;a href="#" aria-hidden="true"&gt;{{&gt; base-thumbnail-image }}&lt;/a&gt;
+    &lt;/div&gt;
+    &lt;div class="layout-slat__content"&gt;
+      &lt;div class="teaser__title"&gt;&lt;a href="#"&gt;{{ title }}&lt;/a&gt;&lt;/div&gt;
+      {{{ summary }}}
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/article&gt;</pre>
   </article>
 
 
